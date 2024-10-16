@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    Table - assignment
+  </title>
+
+<!--  <link rel="stylesheet" href="styles.css">-->
+
+  <style>
+        /* General table styling */
+        body{
+          background-color: grey;
+        }
+        .table {
+
+          width: 80%;
+          margin: 20px auto;
+          border-collapse: collapse;
+          align-content: center;
+          /*border: 1px solid red;*/
+          border-radius: 10px 10px 0 0; /* Rounded top-left and top-right corners */
+          overflow: hidden; /* hides overflowing content to avoid scroling */
+        }
+
+        .table th, .table td {
+          padding: 10px;
+          /* border: 1px solid #000; */
+          text-align: center;
+        }
+
+        .table thead {
+          background-color: rgb(68, 133, 68);
+          color: white;
+
+        }
+
+
+        /*.table{*/
+        /*  border-top-left-radius: 10px;*/
+        /*  border-top-right-radius: 10px;*/
+        /*}*/
+
+        .table tbody tr:nth-child(1) {
+          background-color: #ffffff; /* Greyish background for second row */
+
+        }
+
+        .table tbody tr:nth-child(2) {
+            background-color: #f0f0f0; /* White background for normal rows */
+            color: green;
+        }
+
+        .table tbody tr:nth-child(3) {
+          background-color: #ffffff;
+          border-bottom: 2px solid green;
+        }
+
+  </style>
+</head>
+
+<body>
+
+  <table class="table">
+
+    <thead>
+      <tr>
+        <th>Rank</th>
+        <th>Name</th>
+        <th>Points</th>
+        <th>Teams</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Domenic</td>
+        <td>88,100</td>
+        <td>dcode</td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td>Sally</td>
+        <td>72,400</td>
+        <td>Students</td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+        <td>Nick</td>
+        <td>52,300</td>
+        <td>dcode</td>
+      </tr>
+    </tbody>
+
+  </table>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
